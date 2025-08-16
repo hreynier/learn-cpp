@@ -19,4 +19,4 @@ For example, for the solution in [Chapter 4, Question 2](./chapter-04/q-02/main.
 clang++ -o main -ggdb chapter-04/q-02/main.cpp -std=c++23 -pedantic-errors -Werror -Wunused-variable
 ```
 
-I'm not familiar with tools like `CMake` yet, so just doing this simple solution for now. In the future, I hope to make this more robus and simple.
+I'm not familiar with tools like `CMake` yet, so just doing this simple solution for now. In the future, I hope to make this more robust and simple.
