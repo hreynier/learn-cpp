@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Build C++ (Release)",
+    "command": "sh",
+    "args": ["-c", "clear && make release"],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  },
+  {
+    "label": "Build and Run C++ (Release)",
+    "command": "make",
+    "args": ["run"],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  },
+  {
+    "label": "Build C++ (Debug)",
+    "command": "make",
+    "args": ["debug"],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  },
+  {
+    "label": "Build and Run C++ (Debug)",
+    "command": "make",
+    "args": ["run-debug"],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  },
+  {
+    "label": "Clean Build",
+    "command": "make",
+    "args": ["clean"],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  }
+]
