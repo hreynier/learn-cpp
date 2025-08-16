@@ -13,4 +13,10 @@ If you aren't using Zed, you can run the following command in the root of the di
 clang++ -o main --ggdb <path-to-main.cpp> <any-other-.cpp files to compile> -std=c++23 -pedantic-errors -Werror -Wunused-variable
 ```
 
+For example, for the solution in [Chapter 4, Question 2](./chapter-04/q-02/main.cpp), we can run:
+
+```bash
+clang++ -o main -ggdb chapter-04/q-02/main.cpp -std=c++23 -pedantic-errors -Werror -Wunused-variable
+```
+
 I'm not familiar with tools like `CMake` yet, so just doing this simple solution for now. In the future, I hope to make this more robus and simple.
