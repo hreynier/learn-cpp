@@ -42,11 +42,11 @@ int main() {
   constexpr int FIRST = 1;
   constexpr int SECOND = 2;
 
-  std::string n1{getName(FIRST)};
-  int a1{getAge(n1)};
+  const std::string n1{getName(FIRST)};
+  const int a1{getAge(n1)};
 
-  std::string n2{getName(SECOND)};
-  int a2{getAge(n2)};
+  const std::string n2{getName(SECOND)};
+  const int a2{getAge(n2)};
 
   printOlderPerson(n1, n2, a1, a2);
 
